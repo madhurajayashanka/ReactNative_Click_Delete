@@ -16,14 +16,16 @@ const styles = StyleSheet.create({
     toDoItem:{
         margin: 8,
         borderRadius: 6,
-        backgroundColor: '#5e0acc',
+        backgroundColor: '#f0ad4e',
       },
       presssedItem:{
         opacity:0.5,
+        borderRadius: 6,
       }
       ,
       itemText:{
         color: '#fff',
+        fontSize: 15,
         padding: 8,
       }
 });

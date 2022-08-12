@@ -34,7 +34,7 @@ export default function App() {
       <StatusBar style="dark" />
       <View style={styles.appContainer}>
     <Button title='Add new Item' 
-    color="#5e0acc" 
+    color="#5cb85c" 
     onPress={startAddItemHandler}/>
 <ToDoInput visible={modalIsVisible} onAddItem={addItemHandler} onCancel={endAddItemHandler}/>
     <View style={styles.itemContainer}>
@@ -51,7 +51,6 @@ export default function App() {
     }}
      alwaysBounceVertical={true}/>
     </View>
-    
     </View>
     </>
   );
@@ -60,7 +59,7 @@ export default function App() {
 const styles = StyleSheet.create({
   appContainer: {
     flex: 1,
-    backgroundColor: '#CDF0EA',
+    backgroundColor: '#5bc0de',
     paddingTop:50,
     paddingHorizontal:16,
   },
